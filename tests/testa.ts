@@ -7,7 +7,7 @@ describe("Greeter", function () {
     const greeter = await Greeter.deploy("Hey accept the greetings");
     await greeter.deployed();
 
-    expect(await greeter.great()).to.equal("Hey accept the greetings");
+    expect(await greeter.greet()).to.equal("Hey accept the greetings");
 
     const setGreetingsTx = await greeter.setGreeting("heyy");
 
