@@ -3,3 +3,11 @@ tasks:
       echo 'TODO: build project'
     command: |
       echo 'TODO: start app'
+vscode:
+  extensions:
+    - Solidity + Hardhat v0.4.3
+    - Test Explorer UI v2.21.1
+    - solidity v0.0.139
+    - Git Graph v1.30.0
+    - Docker v1.22.1
+    - Mocha Test Explorer v2.14.0
